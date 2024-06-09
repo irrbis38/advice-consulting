@@ -11,18 +11,18 @@
 
 /*===== global styles =====*/
 
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
-    // min-height: 0.001vw; // — Fixes Safari bug with viewport units in calc()
-}
+// *,
+// *::before,
+// *::after {
+//     box-sizing: border-box;
+//     // min-height: 0.001vw; // — Fixes Safari bug with viewport units in calc()
+// }
 
-html {
-    min-width: 320px;
-    scrollbar-gutter: stable;
-    scroll-behavior: smooth;
-}
+// html {
+//     min-width: 320px;
+//     scrollbar-gutter: stable;
+//     scroll-behavior: smooth;
+// }
 
 body {
     width: 100%;
@@ -32,12 +32,12 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    color: #000;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 400;
-    background-color: #fff;
+    // -webkit-font-smoothing: antialiased;
+    // -moz-osx-font-smoothing: grayscale;
+    // color: #000;
+    // font-family: Arial, Helvetica, sans-serif;
+    // font-weight: 400;
+    // background-color: #fff;
 }
 
 // body.lock {
